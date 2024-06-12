@@ -3,7 +3,7 @@
 Forked from [vite template-svelte](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-svelte) and updated with svelte 5.
 
 ```bash
-npx degit MarkWalters-dev/template-svelte svelte
+npx tiged MarkWalters-dev/template-svelte svelte
 cd svelte
 
 pnpm install

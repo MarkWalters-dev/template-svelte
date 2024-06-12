@@ -1,10 +1,10 @@
 <script>
-  let count = 0
+  let count = $state(0);
   const increment = () => {
-    count += 1
+    count++;
   }
 </script>
 
-<button on:click={increment}>
-  count is {count}
+<button onclick={increment}>
+	clicks: {count}
 </button>
